@@ -1,0 +1,25 @@
+{
+  "name": "isthemountainout-blync",
+  "version": "1.0.0",
+  "description": "\"The mountain is out!\" - Blync edition",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerl0706/isthemountainout-blync.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerl0706/isthemountainout-blync/issues"
+  },
+  "homepage": "https://github.com/tylerl0706/isthemountainout-blync#readme",
+  "dependencies": {
+    "blync-core": "^0.2.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
