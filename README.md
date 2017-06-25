@@ -2,7 +2,7 @@
 
 This allows the manipulation of a Blync light to tell you if Mt. Rainier is out using `themtn.top`'s webhook feature.
 
-See [the actual service repo](https://github.com/MarshallKadlec/isthemountainout) for more information.
+See [the actual service repo](https://github.com/mtntop/isthemountainout) for more information.
 
 ## Getting Started
 First you need to get yourself a Blynclight.
