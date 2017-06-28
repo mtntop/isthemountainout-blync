@@ -4,13 +4,15 @@
   "description": "\"The mountain is out!\" - Blync edition",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start_socketio": "USE_SOCKETIO=true node app.js",
+    "start_webhook": "node app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tylerl0706/isthemountainout-blync.git"
   },
-  "author": "",
+  "author": "TylerLeonhardt",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tylerl0706/isthemountainout-blync/issues"
@@ -20,6 +22,7 @@
     "blync-core": "^0.2.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "socket.io-client": "^2.0.3"
   }
 }
